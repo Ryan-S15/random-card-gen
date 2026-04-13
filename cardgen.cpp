@@ -84,11 +84,11 @@ int main() {
 	} else if (hand1.at(cardPlayedUser) == 11) {
 		cout << "You played the Jack" << suitHand1.at(cardPlayedUser);
 	} else if (hand1.at(cardPlayedUser) == 12) {
-		cout << "You played the Queen" << suitHand1.at(cardPlayedUser);	    
+		cout << "You played the Queen" << suitHand1.at(cardPlayedUser);
 	} else if (hand1.at(cardPlayedUser) == 13) {
-		cout << "You played the King" << suitHand1.at(cardPlayedUser);	    
+		cout << "You played the King" << suitHand1.at(cardPlayedUser);
 	} else if (hand1.at(cardPlayedUser) == 14) {
-		cout << "You played the Ace" << suitHand1.at(cardPlayedUser);	    
+		cout << "You played the Ace" << suitHand1.at(cardPlayedUser);
 	}
 	userCard = hand1.at(cardPlayedUser);
 	cout << "=======================\n";
@@ -122,86 +122,96 @@ int main() {
 
 	// bot 1 actions
 	if (hand2.at(0) > hand1.at(cardPlayedUser)) {
-        if (hand2.at(0) < 11) {
-		    cout << "Bot 1 played the " << hand2.at(0) << suitHand2.at(0);            
-        } else if (hand2.at(0) == 11) {
-		    cout << "Bot 1 played the Jack" << suitHand2.at(0);            
-        } else if (hand2.at(0) == 12) {
-		    cout << "Bot 1 played the Queen" << suitHand2.at(0);            
-        } else if (hand2.at(0) == 13) {
-		    cout << "Bot 1 played the King" << suitHand2.at(0);            
-        } else if (hand2.at(0) == 14) {
-		    cout << "Bot 1 played the Ace" << suitHand2.at(0);            
-        }
+		if (hand2.at(0) < 11) {
+			cout << "Bot 1 played the " << hand2.at(0) << suitHand2.at(0);
+		} else if (hand2.at(0) == 11) {
+			cout << "Bot 1 played the Jack" << suitHand2.at(0);
+		} else if (hand2.at(0) == 12) {
+			cout << "Bot 1 played the Queen" << suitHand2.at(0);
+		} else if (hand2.at(0) == 13) {
+			cout << "Bot 1 played the King" << suitHand2.at(0);
+		} else if (hand2.at(0) == 14) {
+			cout << "Bot 1 played the Ace" << suitHand2.at(0);
+		}
 		cardPlayedBot1 = hand2.at(0);
 	} else if (hand2.at(1) > hand1.at(cardPlayedUser)) {
-        if (hand2.at(1) < 11) {
-		    cout << "Bot 1 played the " << hand2.at(1) << suitHand2.at(1);            
-        } else if (hand2.at(1) == 11) {
-		    cout << "Bot 1 played the Jack" << suitHand2.at(1);            
-        } else if (hand2.at(1) == 12) {
-		    cout << "Bot 1 played the Queen" << suitHand2.at(1);            
-        } else if (hand2.at(1) == 13) {
-		    cout << "Bot 1 played the King" << suitHand2.at(1);            
-        } else if (hand2.at(1) == 14) {
-		    cout << "Bot 1 played the Ace" << suitHand2.at(1);            
-        }
-        cardPlayedBot1 = hand2.at(1);
+		if (hand2.at(1) < 11) {
+			cout << "Bot 1 played the " << hand2.at(1) << suitHand2.at(1);
+		} else if (hand2.at(1) == 11) {
+			cout << "Bot 1 played the Jack" << suitHand2.at(1);
+		} else if (hand2.at(1) == 12) {
+			cout << "Bot 1 played the Queen" << suitHand2.at(1);
+		} else if (hand2.at(1) == 13) {
+			cout << "Bot 1 played the King" << suitHand2.at(1);
+		} else if (hand2.at(1) == 14) {
+			cout << "Bot 1 played the Ace" << suitHand2.at(1);
+		}
+		cardPlayedBot1 = hand2.at(1);
 	} else if (hand2.at(2) > hand1.at(cardPlayedUser)) {
-        if (hand2.at(2) < 11) {
-		    cout << "Bot 1 played the " << hand2.at(2) << suitHand2.at(2);            
-        } else if (hand2.at(2) == 11) {
-		    cout << "Bot 1 played the Jack" << suitHand2.at(2);            
-        } else if (hand2.at(2) == 12) {
-		    cout << "Bot 1 played the Queen" << suitHand2.at(2);            
-        } else if (hand2.at(2) == 13) {
-		    cout << "Bot 1 played the King" << suitHand2.at(2);            
-        } else if (hand2.at(2) == 14) {
-		    cout << "Bot 1 played the Ace" << suitHand2.at(2);            
-        }
+		if (hand2.at(2) < 11) {
+			cout << "Bot 1 played the " << hand2.at(2) << suitHand2.at(2);
+		} else if (hand2.at(2) == 11) {
+			cout << "Bot 1 played the Jack" << suitHand2.at(2);
+		} else if (hand2.at(2) == 12) {
+			cout << "Bot 1 played the Queen" << suitHand2.at(2);
+		} else if (hand2.at(2) == 13) {
+			cout << "Bot 1 played the King" << suitHand2.at(2);
+		} else if (hand2.at(2) == 14) {
+			cout << "Bot 1 played the Ace" << suitHand2.at(2);
+		}
 		cardPlayedBot1 = hand2.at(2);
 	} else if (hand2.at(3) > hand1.at(cardPlayedUser)) {
-        if (hand2.at(3) < 11) {
-		    cout << "Bot 1 played the " << hand2.at(3) << suitHand2.at(3);            
-        } else if (hand2.at(3) == 11) {
-		    cout << "Bot 1 played the Jack" << suitHand2.at(3);            
-        } else if (hand2.at(3) == 12) {
-		    cout << "Bot 1 played the Queen" << suitHand2.at(3);            
-        } else if (hand2.at(3) == 13) {
-		    cout << "Bot 1 played the King" << suitHand2.at(3);            
-        } else if (hand2.at(3) == 14) {
-		    cout << "Bot 1 played the Ace" << suitHand2.at(3);            
-        }
+		if (hand2.at(3) < 11) {
+			cout << "Bot 1 played the " << hand2.at(3) << suitHand2.at(3);
+		} else if (hand2.at(3) == 11) {
+			cout << "Bot 1 played the Jack" << suitHand2.at(3);
+		} else if (hand2.at(3) == 12) {
+			cout << "Bot 1 played the Queen" << suitHand2.at(3);
+		} else if (hand2.at(3) == 13) {
+			cout << "Bot 1 played the King" << suitHand2.at(3);
+		} else if (hand2.at(3) == 14) {
+			cout << "Bot 1 played the Ace" << suitHand2.at(3);
+		}
 		cardPlayedBot1 = hand2.at(3);
 	} else if (hand2.at(4) > hand1.at(cardPlayedUser)) {
-        if (hand2.at(4) < 11) {
-		    cout << "Bot 1 played the " << hand2.at(4) << suitHand2.at(4);            
-        } else if (hand2.at(4) == 11) {
-		    cout << "Bot 1 played the Jack" << suitHand2.at(4);            
-        } else if (hand2.at(4) == 12) {
-		    cout << "Bot 1 played the Queen" << suitHand2.at(4);            
-        } else if (hand2.at(4) == 13) {
-		    cout << "Bot 1 played the King" << suitHand2.at(4);            
-        } else if (hand2.at(4) == 14) {
-		    cout << "Bot 1 played the Ace" << suitHand2.at(4);            
-        }
+		if (hand2.at(4) < 11) {
+			cout << "Bot 1 played the " << hand2.at(4) << suitHand2.at(4);
+		} else if (hand2.at(4) == 11) {
+			cout << "Bot 1 played the Jack" << suitHand2.at(4);
+		} else if (hand2.at(4) == 12) {
+			cout << "Bot 1 played the Queen" << suitHand2.at(4);
+		} else if (hand2.at(4) == 13) {
+			cout << "Bot 1 played the King" << suitHand2.at(4);
+		} else if (hand2.at(4) == 14) {
+			cout << "Bot 1 played the Ace" << suitHand2.at(4);
+		}
 		cardPlayedBot1 = hand2.at(4);
 	} else if (hand2.at(5) > hand1.at(cardPlayedUser)) {
-        if (hand2.at(5) < 11) {
-		    cout << "Bot 1 played the " << hand2.at(5) << suitHand2.at(5);            
-        } else if (hand2.at(5) == 11) {
-		    cout << "Bot 1 played the Jack" << suitHand2.at(5);            
-        } else if (hand2.at(5) == 12) {
-		    cout << "Bot 1 played the Queen" << suitHand2.at(5);            
-        } else if (hand2.at(5) == 13) {
-		    cout << "Bot 1 played the King" << suitHand2.at(5);            
-        } else if (hand2.at(5) == 14) {
-		    cout << "Bot 1 played the Ace" << suitHand2.at(5);            
-        }
+		if (hand2.at(5) < 11) {
+			cout << "Bot 1 played the " << hand2.at(5) << suitHand2.at(5);
+		} else if (hand2.at(5) == 11) {
+			cout << "Bot 1 played the Jack" << suitHand2.at(5);
+		} else if (hand2.at(5) == 12) {
+			cout << "Bot 1 played the Queen" << suitHand2.at(5);
+		} else if (hand2.at(5) == 13) {
+			cout << "Bot 1 played the King" << suitHand2.at(5);
+		} else if (hand2.at(5) == 14) {
+			cout << "Bot 1 played the Ace" << suitHand2.at(5);
+		}
 		cardPlayedBot1 = hand2.at(5);
 	} else {
-		cout << "Bot 1 played the " << hand2.front() << suitHand2.front();
-		cardPlayedBot1 = hand2.front();
+		if (hand2.front() < 11) {
+			cout << "Bot 1 played the " << hand2.front() << suitHand2.front();
+		} else if (hand2.front() == 11) {
+		    cout << "Bot 1 played the Jack" << suitHand2.front();
+		} else if (hand2.front() == 12) {
+		    cout << "Bot 1 played the Queen" << suitHand2.front();
+		} else if (hand2.front() == 13) {
+		    cout << "Bot 1 played the King" << suitHand2.front();
+		} else if (hand2.front() == 14) {
+		    cout << "Bot 1 played the Ace" << suitHand2.front();
+		}
+		cardPlayedBot2 = hand2.front();
 	}
 	cout << "=======================\n";
 
@@ -233,86 +243,96 @@ int main() {
 
 	// bot 2 actions
 	if (hand3.at(0) > hand1.at(cardPlayedUser)) {
-        if (hand3.at(0) < 11) {
-            cout << "Bot 2 played the " << hand3.at(0) << suitHand3.at(0);
-        } else if (hand3.at(0) == 11) {
-            cout << "Bot 2 played the Jack" << suitHand3.at(0);
-        } else if (hand3.at(0) == 12) {
-            cout << "Bot 2 played the Queen" << suitHand3.at(0);
-        } else if (hand3.at(0) == 13) {
-            cout << "Bot 2 played the King" << suitHand3.at(0);
-        } else if (hand3.at(0) == 14) {
-            cout << "Bot 2 played the Ace" << suitHand3.at(0);
-        }
+		if (hand3.at(0) < 11) {
+			cout << "Bot 2 played the " << hand3.at(0) << suitHand3.at(0);
+		} else if (hand3.at(0) == 11) {
+			cout << "Bot 2 played the Jack" << suitHand3.at(0);
+		} else if (hand3.at(0) == 12) {
+			cout << "Bot 2 played the Queen" << suitHand3.at(0);
+		} else if (hand3.at(0) == 13) {
+			cout << "Bot 2 played the King" << suitHand3.at(0);
+		} else if (hand3.at(0) == 14) {
+			cout << "Bot 2 played the Ace" << suitHand3.at(0);
+		}
 		cardPlayedBot2 = hand3.at(0);
 	} else if (hand3.at(1) > hand1.at(cardPlayedUser)) {
-        if (hand3.at(1) < 11) {
-            cout << "Bot 2 played the " << hand3.at(1) << suitHand3.at(1);
-        } else if (hand3.at(1) == 11) {
-            cout << "Bot 2 played the Jack" << suitHand3.at(1);
-        } else if (hand3.at(1) == 12) {
-            cout << "Bot 2 played the Queen" << suitHand3.at(1);
-        } else if (hand3.at(1) == 13) {
-            cout << "Bot 2 played the King" << suitHand3.at(1);
-        } else if (hand3.at(1) == 14) {
-            cout << "Bot 2 played the Ace" << suitHand3.at(1);
-        }
+		if (hand3.at(1) < 11) {
+			cout << "Bot 2 played the " << hand3.at(1) << suitHand3.at(1);
+		} else if (hand3.at(1) == 11) {
+			cout << "Bot 2 played the Jack" << suitHand3.at(1);
+		} else if (hand3.at(1) == 12) {
+			cout << "Bot 2 played the Queen" << suitHand3.at(1);
+		} else if (hand3.at(1) == 13) {
+			cout << "Bot 2 played the King" << suitHand3.at(1);
+		} else if (hand3.at(1) == 14) {
+			cout << "Bot 2 played the Ace" << suitHand3.at(1);
+		}
 		cardPlayedBot2 = hand3.at(1);
 	} else if (hand3.at(2) > hand1.at(cardPlayedUser)) {
-        if (hand3.at(2) < 11) {
-            cout << "Bot 2 played the " << hand3.at(2) << suitHand3.at(2);
-        } else if (hand3.at(2) == 11) {
-            cout << "Bot 2 played the Jack" << suitHand3.at(2);
-        } else if (hand3.at(2) == 12) {
-            cout << "Bot 2 played the Queen" << suitHand3.at(2);
-        } else if (hand3.at(2) == 13) {
-            cout << "Bot 2 played the King" << suitHand3.at(2);
-        } else if (hand3.at(2) == 14) {
-            cout << "Bot 2 played the Ace" << suitHand3.at(2);
-        }
+		if (hand3.at(2) < 11) {
+			cout << "Bot 2 played the " << hand3.at(2) << suitHand3.at(2);
+		} else if (hand3.at(2) == 11) {
+			cout << "Bot 2 played the Jack" << suitHand3.at(2);
+		} else if (hand3.at(2) == 12) {
+			cout << "Bot 2 played the Queen" << suitHand3.at(2);
+		} else if (hand3.at(2) == 13) {
+			cout << "Bot 2 played the King" << suitHand3.at(2);
+		} else if (hand3.at(2) == 14) {
+			cout << "Bot 2 played the Ace" << suitHand3.at(2);
+		}
 		cardPlayedBot2 = hand3.at(2);
 	} else if (hand3.at(3) > hand1.at(cardPlayedUser)) {
-        if (hand3.at(3) < 11) {
-            cout << "Bot 2 played the " << hand3.at(3) << suitHand3.at(3);
-        } else if (hand3.at(3) == 11) {
-            cout << "Bot 2 played the Jack" << suitHand3.at(3);
-        } else if (hand3.at(3) == 12) {
-            cout << "Bot 2 played the Queen" << suitHand3.at(3);
-        } else if (hand3.at(3) == 13) {
-            cout << "Bot 2 played the King" << suitHand3.at(3);
-        } else if (hand3.at(3) == 11) {
-            cout << "Bot 2 played the Ace" << suitHand3.at(3);
-        }
+		if (hand3.at(3) < 11) {
+			cout << "Bot 2 played the " << hand3.at(3) << suitHand3.at(3);
+		} else if (hand3.at(3) == 11) {
+			cout << "Bot 2 played the Jack" << suitHand3.at(3);
+		} else if (hand3.at(3) == 12) {
+			cout << "Bot 2 played the Queen" << suitHand3.at(3);
+		} else if (hand3.at(3) == 13) {
+			cout << "Bot 2 played the King" << suitHand3.at(3);
+		} else if (hand3.at(3) == 14) {
+			cout << "Bot 2 played the Ace" << suitHand3.at(3);
+		}
 		cardPlayedBot2 = hand3.at(3);
 	} else if (hand3.at(4) > hand1.at(cardPlayedUser)) {
-        if (hand3.at(4) < 11) {
-            cout << "Bot 2 played the " << hand3.at(4) << suitHand3.at(4);
-        } else if (hand3.at(4) == 11) {
-            cout << "Bot 2 played the Jack" << suitHand3.at(4);
-        } else if (hand3.at(4) == 12) {
-            cout << "Bot 2 played the Queen" << suitHand3.at(4);
-        } else if (hand3.at(4) == 13) {
-            cout << "Bot 2 played the King" << suitHand3.at(4);
-        } else if (hand3.at(4) == 11) {
-            cout << "Bot 2 played the Ace" << suitHand3.at(4);
-        }
+		if (hand3.at(4) < 11) {
+			cout << "Bot 2 played the " << hand3.at(4) << suitHand3.at(4);
+		} else if (hand3.at(4) == 11) {
+			cout << "Bot 2 played the Jack" << suitHand3.at(4);
+		} else if (hand3.at(4) == 12) {
+			cout << "Bot 2 played the Queen" << suitHand3.at(4);
+		} else if (hand3.at(4) == 13) {
+			cout << "Bot 2 played the King" << suitHand3.at(4);
+		} else if (hand3.at(4) == 14) {
+			cout << "Bot 2 played the Ace" << suitHand3.at(4);
+		}
 		cardPlayedBot2 = hand3.at(4);
 	} else if (hand3.at(5) > hand1.at(cardPlayedUser)) {
-        if (hand3.at(5) < 11) {
-            cout << "Bot 2 played the " << hand3.at(5) << suitHand3.at(5);
-        } else if (hand3.at(5) == 11) {
-            cout << "Bot 2 played the Jack" << suitHand3.at(5);
-        } else if (hand3.at(5) == 12) {
-            cout << "Bot 2 played the Queen" << suitHand3.at(5);
-        } else if (hand3.at(5) == 13) {
-            cout << "Bot 2 played the King" << suitHand3.at(5);
-        } else if (hand3.at(5) == 11) {
-            cout << "Bot 2 played the Ace" << suitHand3.at(5);
-        }
+		if (hand3.at(5) < 11) {
+			cout << "Bot 2 played the " << hand3.at(5) << suitHand3.at(5);
+		} else if (hand3.at(5) == 11) {
+			cout << "Bot 2 played the Jack" << suitHand3.at(5);
+		} else if (hand3.at(5) == 12) {
+			cout << "Bot 2 played the Queen" << suitHand3.at(5);
+		} else if (hand3.at(5) == 13) {
+			cout << "Bot 2 played the King" << suitHand3.at(5);
+		} else if (hand3.at(5) == 14) {
+			cout << "Bot 2 played the Ace" << suitHand3.at(5);
+		}
 		cardPlayedBot2 = hand3.at(5);
 	} else {
-		cout << "Bot 2 played the " << hand3.front() << suitHand2.front();
-		cardPlayedBot2 = hand3.at(0);
+		if (hand3.front() < 11) {
+			cout << "Bot 2 played the " << hand3.front() << suitHand3.front();
+		} else if (hand3.front() == 11) {
+		    cout << "Bot 2 played the Jack" << suitHand3.front();
+		} else if (hand3.front() == 12) {
+		    cout << "Bot 2 played the Queen" << suitHand3.front();
+		} else if (hand3.front() == 13) {
+		    cout << "Bot 2 played the King" << suitHand3.front();
+		} else if (hand3.front() == 14) {
+		    cout << "Bot 2 played the Ace" << suitHand3.front();
+		}
+		cardPlayedBot2 = hand3.front();
 	}
 	cout << "=======================\n";
 
