@@ -8,7 +8,7 @@ int main() {
 
 	// startscreen
 	int userChoice;
-	
+
 	// hands
 	vector<int> hand1;
 	vector<string> suitHand1;
@@ -22,6 +22,7 @@ int main() {
 	int k2 = 0;
 	int k3 = 0;
 	char loop;
+	int cont;
 
 	// all cardplayeds
 	int userCard;
@@ -43,7 +44,6 @@ int main() {
 	cin >> userChoice;
 	cout << "=======================\n";
 	if (userChoice == 1) {
-
 		// user hand
 		cout << "Your Hand\n";
 		cout << "=======================\n";
