@@ -43,6 +43,47 @@ int main() {
 	cout << "=======================\n";
 	cin >> userChoice;
 	cout << "=======================\n";
+	if (userChoice == 2) {
+	    //Display of Rule
+	    cout << "=============================\n";
+	    cout << "Instructions\n";
+	    cout << "=============================\n";
+	    cout << "The game is played using\n";
+	    cout << "a standard deck of 52\n";
+	    cout << "cards. there can be from\n";
+	    cout << "3 to 8 players per game\n";
+	    cout << "a hand of 6 cards is\n";
+	    cout << "dealt to each player one\n";
+	    cout << "at a time. Play is\n";
+	    cout << "clockwise and begins with\n";
+	    cout << "the player to the dealers\n";
+	    cout << "left. Any card may be\n"; 
+	    cout << "led. Other players in\n";
+	    cout << "turn must either play\n";
+	    cout << "a card that is at least\n";
+	    cout << "as high as the highest\n"; 
+	    cout << "card so far played to the\n"; 
+	    cout << "trick, or play their lowest\n";
+	    cout << "card. The trick is won by\n";
+	    cout << "the highest card played to it\n";
+	    cout << "and if several equally high\n";
+	    cout << "cards are played, by the last\n";
+	    cout << "of those. Whoever has the\n";
+        cout << "highest card in the last\n";
+        cout << "trick scores that many \n";
+        cout << "penalty points (J=11, Q=12,\n";
+        cout << "K=13, A=14). If two or more\n";
+        cout << "players have equally high\n";
+        cout << "cards in the last trick they\n";
+        cout << "score that number of penalty\n";
+        cout << "points. Any player who reaches\n";
+        cout << "a cumulative score of 30 points\n";
+        cout << "is out of the game: the player\n";
+        cout << "is said to be a cucumber,\n";
+        cout << "================================\n";
+        cout << "enter 1 if your ready to begin the game\n";
+        cin >> userChoice;
+        cout << "================================";
 	if (userChoice == 1) {
 		// user hand
 		cout << "Your Hand\n";
@@ -363,5 +404,6 @@ int main() {
 				cout << "Bot 2 won! Go to bed!\n";
 			}
 		}
+	}
 	}
 }
